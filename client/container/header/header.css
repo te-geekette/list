@@ -1,0 +1,75 @@
+.nav-wrapper {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.navbar-brand {
+	font-family: 'Special Elite', cursive;
+	font-size: 24px;
+	color: #6369D1;
+	padding-top: 5px;
+
+}
+
+#nav-main > li:nth-child(2) > a,
+#nav-mobile > li:nth-child(2) > a {
+	font-weight: 400; 
+}
+
+@media only screen and (max-width: 992px){
+	.right-on-mobile {
+		float: right;
+	}
+} 
+
+#profile-mobile {
+	height: 150px;
+}
+
+#profile-mobile > div {
+	height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background: #6369D1;
+    margin: auto;
+    display: flex;
+}
+
+#profile-mobile > div > a{
+	margin: auto;
+    font-size: 24px;
+    color: white;
+}
+
+#profile-mobile > div > i {
+	margin: auto;
+}
+
+#nav-main #dropdown1 {
+	top: 68px !important;
+}
+
+#profile-web > a > div {
+	height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #6369D1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#profile-web > a > div > i {
+	color: white;
+    margin: auto;
+}
+
+/*LOGIN AND SIGNUP MODAL*/
+
+#modalLogin button:hover,
+#modalSignup button:hover {
+	background: #6369D1;
+ }

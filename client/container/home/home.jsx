@@ -1,7 +1,9 @@
 Home = React.createClass({
     render() {
         return (
-            <div></div>
+            <div>
+            	<TitleUnit />
+            </div>
         )
     }
 });

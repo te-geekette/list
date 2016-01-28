@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Special+Elite|Roboto+Slab:400,300,100,700);
+
+body {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+}
+
+.light-grey {
+	background: #A0A4B8;
+}
+
+.light-grey-text {
+	color: #A0A4B8;
+}
+
+.hidden {
+	display: none;
+}
+
+.flex {
+	display: flex;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-base {
+  align-items: baseline;
+}
+
+.justify-right {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-direct-column {
+  flex-direction: column;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+

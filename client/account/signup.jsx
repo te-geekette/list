@@ -52,7 +52,7 @@ SignupModal = React.createClass({
             <div id="modalSignup" className="modal modal-fixed-footer">
                 <form onSubmit={ this.onSubmit }>
                     <div className="modal-content">
-                        <h5>Welcome to Unite</h5>
+                        <h5>Welcome to List</h5>
                     
                         <div>
                             <input type="text" id="account-username" className="validate" name="username" ref="username" placeholder="Set a username"/>
@@ -65,7 +65,7 @@ SignupModal = React.createClass({
                     <div className="modal-footer flex justify-right align-center">
                         <p className={this.state.error}>{this.state.errorMessage}</p>
                         <a onClick={this.handleCancel} className="modal-action btn-flat cancel ">Cancel</a>
-                        <button className='btn waves-effect waves-light blue darken-2' type="submit" id="create-account">
+                        <button className='btn waves-effect waves-light light-grey' type="submit" id="create-account">
                             Create account
                             <i className="mdi-content-send right"></i>    
                         </button>                            

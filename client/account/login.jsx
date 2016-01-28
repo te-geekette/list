@@ -45,14 +45,14 @@ LoginModal = React.createClass({
                         <div>
                             <input type="email" id="account-email" className="validate" name="email" ref="email" placeholder="Enter your email"/>
                             <input type="password" id="account-password" className="validate" name="password" ref="password" placeholder="Enter your password" />
-                        	<a onClick={this.handleCancel} href='/reset-password'>Forgot your password?</a>
+                        	<a className="light-grey-text" onClick={this.handleCancel} href='#'>Forgot your password?</a>
                         </div>
                     </div>
 
                     <div className="modal-footer flex justify-right align-center">
-                        <p className={this.state.error}>{this.state.errorMessage}</p>
+                        <p className={this.state.error + " light-grey-text"}>{this.state.errorMessage}</p>
                         <a onClick={this.handleCancel} className="modal-action btn-flat cancel ">Cancel</a>
-                        <button className='btn waves-effect waves-light blue darken-2' type="submit" id="create-account">
+                        <button className='btn waves-effect waves-light light-grey' type="submit" id="create-account">
                             Login
                             <i className="mdi-content-send right"></i>    
                         </button>                            

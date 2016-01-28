@@ -11,7 +11,7 @@ Header = React.createClass({
         let { currentUser } = this.data;
 
         if (currentUser) {
-            return <LoggedInHeader userEmail={currentUser.emails[0].address} />; 
+            return <LoggedInHeader username={currentUser.username} />; 
         } else {
             return <LoggedOutHeader />;
         }
@@ -21,7 +21,7 @@ Header = React.createClass({
     render() {
         return (
             <div className="navbar-fixed">
-                <nav className="grey darken-4">
+                <nav className="white">
                     {this.renderNavLinks()}
                 </nav>
             </div>
