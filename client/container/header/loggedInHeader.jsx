@@ -6,6 +6,7 @@ LoggedInHeader = React.createClass({
             closeOnClick: true
         });
         $('.collapsible').collapsible();
+        $('.modal-trigger-createListNav').leanModal();
     },
 
     handleLogout() {
@@ -19,7 +20,7 @@ LoggedInHeader = React.createClass({
 	            <a href="#" data-activates="nav-mobile" className="button-collapse"><i className="mdi-navigation-menu grey-text text-darken-4"></i></a>
 
 	            <ul id="nav-main" className="right hide-on-med-and-down">
-	            	<li><a href="#" className="grey-text text-darken-4">Create List</a></li>
+	            	<li><a href="#modalCreateList" className="modal-trigger-createListNav grey-text text-darken-4">Create List</a></li>
 	                <li id="profile-web">
 	                    <a className="dropdown-button flex grey-text text-darken-4" href="#" data-activates="dropdown1">
 	                    	<div><i className="mdi-action-perm-identity"></i></div>

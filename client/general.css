@@ -5,6 +5,8 @@ body {
 	font-weight: 300;
 }
 
+/* COLORS */
+
 .light-grey {
 	background: #A0A4B8;
 }
@@ -12,6 +14,22 @@ body {
 .light-grey-text {
 	color: #A0A4B8;
 }
+
+.signature-color {
+	background: #6369D1;
+}
+
+.signature-color-text {
+	color: #6369D1;
+}
+
+.signature-button,
+.signature-button:hover, 
+.signature-button:active {
+	background: #6369D1;
+}
+
+/* HELPERS */
 
 .hidden {
 	display: none;
@@ -27,6 +45,10 @@ body {
 
 .align-center {
   align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
 }
 
 .align-base {

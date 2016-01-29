@@ -8,6 +8,7 @@ Container = React.createClass({
 
                 <LoginModal />
     			<SignupModal />
+                <CreateListModal />
             </div>
         )
     }
